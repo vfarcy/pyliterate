@@ -1,12 +1,12 @@
 # PyLiterate
 
-This is the tool I used to write my book, [Effective Python](http://www.effectivepython.com). The workflow is a variation on [Donald Knuth's Literate programming](http://en.wikipedia.org/wiki/Literate_programming).
+This is the tool Brett Slatkin used to write his book, [Effective Python](http://www.effectivepython.com). The workflow is a variation on [Donald Knuth's Literate programming](http://en.wikipedia.org/wiki/Literate_programming).
 
 The idea is the source code and explanatory text appear interleaved in a [Markdown formatted](https://help.github.com/articles/github-flavored-markdown/) file. Each time you edit a Markdown file, you can re-run the source code it contains using the `run_markdown` tool provided by this project (it's super userful as a Sublime build system). `run_markdown` will update the file in-place with the new output from running the code. If an unexpected error occurs it will be printed to the terminal instead of overwriting the file.
 
 The example book source contained in this project has multiple chapters (directories) containing multiple subsections (files). By having these subsections in separate files, it becomes a lot easier to focus on each individual subject as you write. The example `Makefile` also shows how all of the pieces can be connected together.
 
-In the case of my book, the final step was post-processing the Markdown file and converting it into a Microsoft Word document. This was a requirement of my publisher because of the way their book printing workflow was built. You can [learn more about how I wrote my book here](http://www.onebigfluke.com/2014/07/how-im-writing-programming-book.html).
+In the case of his book, the final step was post-processing the Markdown file and converting it into a Microsoft Word document. This was a requirement of his publisher because of the way their book printing workflow was built. You can [learn more about how he wrote his book here](http://www.onebigfluke.com/2014/07/how-im-writing-programming-book.html).
 
 ## Example usage
 
