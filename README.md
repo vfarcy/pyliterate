@@ -28,7 +28,7 @@ Check that the installation worked
 
 `run_markdown`
 
-Then, gGo into the example directory:
+Then go into the example directory:
 
 `cd example`
 
