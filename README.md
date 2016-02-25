@@ -12,9 +12,9 @@ In the case of my book, the final step was post-processing the Markdown file and
 
 See the `example` directory for the layout of a simple book. This includes an example `Makefile` that ties it all together. To run the example, run the following commands from a clean check-out of this project. Make sure you have Python 3 installed.
 
-Create a virtual environment:
+Create a python3 virtual environment :
 
-`pyvenv .`
+`virtualenv -p /usr/bin/python3 .`
 
 Activate the virtual environment:
 
@@ -24,7 +24,11 @@ Install this package in your virtual environment:
 
 `pip install -e .`
 
-Go into the example directory:
+Check that the installation worked 
+
+`run_markdown`
+
+Then, gGo into the example directory:
 
 `cd example`
 
