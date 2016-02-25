@@ -19,9 +19,9 @@ $(OUTPUT_DIR)/Chapter1.md: \
 		$(OUTPUT_DIR)/Chapter1/Falafel_balls.md
 
 $(OUTPUT_DIR)/Chapter2.md: \
-		$(OUTPUT_DIR)/Chapter2/Introduction.md \
-		$(OUTPUT_DIR)/Chapter2/Salmon_fillet.md \
-		$(OUTPUT_DIR)/Chapter2/Swordfish_steaks.md
+		$(OUTPUT_DIR)/chapter2/Introduction.md \
+		$(OUTPUT_DIR)/chapter2/Salmon_fillet.md \
+		$(OUTPUT_DIR)/chapter2/Swordfish_steaks.md
 
 $(OUTPUT_DIR)/Book_draft.md: \
 		$(OUTPUT_DIR)/Chapter1.md \

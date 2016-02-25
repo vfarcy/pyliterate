@@ -1,6 +1,8 @@
 ## Salmon fillet
 
+
 This is all about salmon.
+
 
 And here's a file that's included:
 
@@ -15,5 +17,4 @@ def my_func():
 c = b * my_func()
 ```
 
-But you'll have to copy the output yourself.
-
+stop here 
