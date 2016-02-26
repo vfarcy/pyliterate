@@ -1,6 +1,6 @@
 # PyLiterate
 
-This is the tool Brett Slatkin used to write his book, [Effective Python](http://www.effectivepython.com). The workflow is a variation on [Donald Knuth's Literate programming](http://en.wikipedia.org/wiki/Literate_programming).
+This is the tool [Brett Slatkin](https://twitter.com/haxor) used to write his book, [Effective Python](http://www.effectivepython.com). The workflow is a variation on [Donald Knuth's Literate programming](http://en.wikipedia.org/wiki/Literate_programming).
 
 The idea is the source code and explanatory text appear interleaved in a [Markdown formatted](https://help.github.com/articles/github-flavored-markdown/) file. Each time you edit a Markdown file, you can re-run the source code it contains using the `run_markdown` tool provided by this project (it's super userful as a Sublime build system). `run_markdown` will update the file in-place with the new output from running the code. If an unexpected error occurs it will be printed to the terminal instead of overwriting the file.
 
